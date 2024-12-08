@@ -4,8 +4,10 @@ import json
 from datetime import datetime
 
 
+
 # File to store reminders
 REMINDERS_FILE = "reminders.json"
+
 
 
 # Load reminders from file
@@ -17,10 +19,12 @@ def load_reminders():
         return []
 
 
+
 # Save reminders to file
 def save_reminders(reminders):
     with open(REMINDERS_FILE, "w") as file:
         json.dump(reminders, file, indent=4)
+
 
 
 # Add a new reminder
@@ -38,6 +42,7 @@ def add_reminder():
         print("Invalid date format. Please try again.")
 
 
+
 # View all reminders
 def view_reminders():
     reminders = load_reminders()
@@ -49,6 +54,7 @@ def view_reminders():
     for i, reminder in enumerate(reminders, start=1):
         print(f"{i}. {reminder['description']} (Due: {reminder['due_date']})")
     print()
+
 
 
 # Delete a reminder
@@ -68,6 +74,7 @@ def delete_reminder():
             print("Invalid reminder number.")
     except ValueError:
         print("Invalid input. Please enter a number.")
+
 
 
 # Main menu
