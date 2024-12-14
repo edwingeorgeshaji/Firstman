@@ -1,2 +1,2 @@
-# Fig
+# Figora
 memorice
