@@ -112,5 +112,5 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 ## Author
-Created by [Edwin George Shaji](https://github.com/edwingeorgeshaji). Feel free to reach out for any questions or suggestions!
+Created by [Edwin](https://github.com/edwingeorgeshaji). Feel free to reach out for any questions or suggestions!
 
