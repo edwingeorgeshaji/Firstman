@@ -29,7 +29,7 @@ Guido Task Reminder is a simple yet efficient console-based application built in
 ## How to Run the App
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/guido-task-reminder.git
+   git clone https://github.com/edwingeorgeshaji/Firstman/task-reminder.git
    ```
 
 2. Navigate to the project directory:
