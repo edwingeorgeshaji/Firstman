@@ -112,4 +112,4 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 ## Author
-Created by <strong>[R.E.C](https://github.com/edwingeorgeshaji)</strong> <i>(ifykyk).</i> Feel free to reach out for any questions or suggestions tto!
+Created by <strong>[R.E.C](https://github.com/edwingeorgeshaji)</strong> <i>(ifykyk).</i> Feel free to reach out for any questions or suggestions!
