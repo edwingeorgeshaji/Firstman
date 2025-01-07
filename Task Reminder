@@ -94,7 +94,7 @@ def main():
         elif choice == "3":
             delete_reminder()
         elif choice == "4":
-            print("Goodbye!")
+            print("Goodbye!\nCreated by R.E.C (ifykyk).")
             break
         else:
             print("Invalid choice buddy!. Please try again.")
