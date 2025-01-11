@@ -34,6 +34,7 @@ Guido Task Reminder is a simple yet efficient console-based application built in
 
 2. Navigate to the project directory:
    ```bash
+   cd Firstman
    cd Ding
    ```
 
