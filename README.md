@@ -63,7 +63,7 @@ Guido Task Reminder is a simple yet efficient console-based application built in
 ## Example Output
 
 <details>
- <summary>Just an exapmle!</summary>
+ <summary>Just an example!</summary>
 
 ```plaintext
 Guido Task Reminder
