@@ -39,7 +39,7 @@ Guido Task Reminder is a simple yet efficient console-based application built in
 
 3. Run the application:
    ```bash
-   python task_reminder.py
+   python GuidoTaskReminder.py
    ```
 
 ---
