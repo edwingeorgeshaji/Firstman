@@ -35,7 +35,7 @@ def add_reminder():
     try:
         due_date = datetime.strptime(due_date, "%d-%m-%Y %H:%M")
         reminders = load_reminders()
-        reminders.append({"description": description, "due_date": due_date.strftime("%Y-%m-%d %H:%M")})
+        reminders.append({"description": description, "due_date": due_date.strftime("%d-%m-%Y %H:%M")})
         save_reminders(reminders)
         print("Reminder added successfully!")
     except ValueError:
