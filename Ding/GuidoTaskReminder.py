@@ -80,7 +80,7 @@ def delete_reminder():
 # Main menu
 def main():
     while True:
-        print("\nGuido Task Reminder")
+        print("\nGuido Task Reminder\n")
         print("1. Add a reminder")
         print("2. View all reminders")
         print("3. Delete a reminder")
