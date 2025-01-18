@@ -6,14 +6,14 @@ from datetime import datetime
 
 
 # File to store reminders
-REMINDERS_FILE = "reminders.json"
+ReminderFile = "GuidoTaskReminder.json"
 
 
 
 # Load reminders from file
 def load_reminders():
     try:
-        with open(REMINDERS_FILE, "r") as file:
+        with open(ReminderFile, "r") as file:
             return json.load(file)
     except FileNotFoundError:
         return []
@@ -22,7 +22,7 @@ def load_reminders():
 
 # Save reminders to file
 def save_reminders(reminders):
-    with open(REMINDERS_FILE, "w") as file:
+    with open(ReminderFile, "w") as file:
         json.dump(reminders, file, indent=4)
 
 
